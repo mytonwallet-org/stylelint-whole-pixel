@@ -20,12 +20,15 @@
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
     "build": "npm run build:code && npm run build:types"
   },
-  "devDependencies": {
-    "@types/node": "^22.15.29",
-    "typescript": "^5.8.3"
+  "peerDependencies": {
+    "stylelint": "^16.0.0"
   },
   "dependencies": {
-    "postcss": ">=8",
-    "stylelint": ">=16"
+    "postcss": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "stylelint": "^16.19.1",
+    "typescript": "^5.8.3"
   }
 }
