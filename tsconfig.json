@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "moduleResolution": "node",
+    "moduleResolution": "Node16",
+    "module": "Node20",
     "strict": true,
     "types": ["node"],
     "allowSyntheticDefaultImports": true,

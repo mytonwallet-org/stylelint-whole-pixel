@@ -1,6 +1,6 @@
 {
   "name": "stylelint-whole-pixel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stylelint plugin to enforce whole pixel values",
   "homepage": "https://github.com/mytonwallet-org/stylelint-whole-pixel#readme",
   "bugs": {
@@ -21,14 +21,14 @@
     "build": "npm run build:code && npm run build:types"
   },
   "peerDependencies": {
-    "stylelint": "^16.0.0"
+    "stylelint": ">=16.0.0"
   },
   "dependencies": {
     "postcss": "^8.0.0"
   },
   "devDependencies": {
-    "@types/node": "^24.7.2",
-    "stylelint": "^16.25.0",
+    "@types/node": "^25.1.0",
+    "stylelint": "^17.1.0",
     "typescript": "^5.9.3"
   }
 }
